@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background: #333;
+    background: #333237;
     font-family: sans-serif;
     font-weight: 100;
     padding-top: 25vh;
@@ -26,25 +26,27 @@ h1 {
 
 #clockdiv > div {
     padding: 10px;
-    border-radius: 3px;
-    /*background: #00BF96;*/
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.3);
     display: inline-block;
 }
 
 #clockdiv div > span {
-    padding: 15px;
-    border-radius: 3px;
-    /*background: #00816A;*/
+    padding: 0.1em;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.3);
     display: inline-block;
 }
 
 .smalltext {
-    font-size: 16px;
+    padding-top: 0.5em;
+    font-size: 1.5rem;
+    opacity: 0.8;
 }
 
 .bar-container {
-    background-color: #222;
-    width: 70%;
+    background-color: rgba(0,0,0,0.3);
+    width: 93%;
     padding: 1em;
     border-radius: 3px;
 }
@@ -66,5 +68,5 @@ h1 {
     z-index: 10;
     background: url(matrix-logo.png) -50em no-repeat;
     background-size: 100%;
-    opacity: 0.05;
+    opacity: 0.03;
 }
