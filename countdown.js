@@ -48,6 +48,6 @@ function initializeClock(id, endtime, birth) {
   var timeinterval = setInterval(updateAll, 1000);
 }
 
-var birthDate = new Date(Date.parse("Mar 1, 1995"));
-var deadline = new Date(Date.parse("Mar 1, 2035"));
+var birthDate = new Date(Date.parse("1995-03-01T00:00:00Z"));
+var deadline = new Date(Date.parse("2035-03-01T00:00:00Z"));
 initializeClock('clockdiv', deadline, birthDate);
